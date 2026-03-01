@@ -1,0 +1,17 @@
+# Arduino / ESP32
+*.bin
+*.elf
+*.map
+*.hex
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# PlatformIO
+.pio/
+
+# OS
+.DS_Store
+Thumbs.db
