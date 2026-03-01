@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Birdnest Kintamani",
+    "timezone": "Asia/Makassar"
+  },
+  "mqtt": {
+    "broker_host": "192.168.1.10",
+    "broker_port": 1883,
+    "username": "",
+    "password": ""
+  },
+  "rooms": [
+    {
+      "room_id": "room01",
+      "display_name": "Glamping 1",
+      "controller_client_id": "birdnest-REPLACE_ME",
+      "controller_base_topic": "birdnest/controllers/birdnest-REPLACE_ME"
+    },
+    {
+      "room_id": "room02",
+      "display_name": "Glamping 2",
+      "controller_client_id": "birdnest-REPLACE_ME",
+      "controller_base_topic": "birdnest/controllers/birdnest-REPLACE_ME"
+    },
+    {
+      "room_id": "room03",
+      "display_name": "Glamping 3",
+      "controller_client_id": "birdnest-REPLACE_ME",
+      "controller_base_topic": "birdnest/controllers/birdnest-REPLACE_ME"
+    },
+    {
+      "room_id": "room04",
+      "display_name": "Glamping 4",
+      "controller_client_id": "birdnest-REPLACE_ME",
+      "controller_base_topic": "birdnest/controllers/birdnest-REPLACE_ME"
+    },
+    {
+      "room_id": "room05",
+      "display_name": "Glamping 5",
+      "controller_client_id": "birdnest-REPLACE_ME",
+      "controller_base_topic": "birdnest/controllers/birdnest-REPLACE_ME"
+    }
+  ]
+}

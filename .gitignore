@@ -1,0 +1,22 @@
+# Arduino / ESP32
+*.bin
+*.elf
+*.map
+*.hex
+*.zip
+
+# Mosquitto (Windows broker runtime)
+broker/windows/passwordfile
+broker/windows/data/mosquitto.db
+broker/windows/log/mosquitto.log
+
+# IDE
+.vscode/
+.idea/
+
+# PlatformIO
+.pio/
+
+# OS
+.DS_Store
+Thumbs.db
