@@ -14,6 +14,9 @@ Use the files under `broker/windows/`:
 - `broker/windows/mosquitto.conf`
 - `broker/windows/aclfile`
 - `broker/windows/passwordfile` (generated locally, not committed)
+- `broker/windows/create-password.bat` (easiest setup)
+- `broker/windows/start-broker.bat` (easiest start)
+- `broker/windows/README.md` (step-by-step commands)
 
 ### Create Password File
 
@@ -38,13 +41,13 @@ mosquitto -c mosquitto.conf -v
 In one terminal:
 
 ```
-mosquitto_sub -h 127.0.0.1 -p 1883 -u birdnest -P kintamani -t birdnest/test
+mosquitto_sub -h 127.0.0.1 -p 1883 -u birdnest -P <YOUR_PASSWORD> -t birdnest/test
 ```
 
 In another terminal:
 
 ```
-mosquitto_pub -h 127.0.0.1 -p 1883 -u birdnest -P kintamani -t birdnest/test -m hello
+mosquitto_pub -h 127.0.0.1 -p 1883 -u birdnest -P <YOUR_PASSWORD> -t birdnest/test -m hello
 ```
 
 ## Topic Convention Used by Controllers

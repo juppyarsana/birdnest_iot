@@ -17,6 +17,14 @@ broker/windows/log/mosquitto.log
 # PlatformIO
 .pio/
 
+# Android
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.cxx/
+android/.externalNativeBuild/
+android/_tmp_gradle/
+
 # OS
 .DS_Store
 Thumbs.db
